@@ -46,7 +46,7 @@ def generate_guide():
     table_rows.sort(key=lambda x: x[0])
     
     # 4. 寫入檔案
-    header = "# LeetCode Master Guide\n\n| # | Title | Difficulty | Category | Note |\n| :--- | :--- | :--- | :--- | :--- |\n"
+    header = "# LeetCode Guide\n\n| # | Title | Difficulty | Category | Note |\n| :--- | :--- | :--- | :--- | :--- |\n"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(header + "\n".join([r[1] for r in table_rows]))
             

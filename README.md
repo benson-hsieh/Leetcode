@@ -1,4 +1,4 @@
-# LeetCode Master Guide
+# LeetCode Guide
 
 | # | Title | Difficulty | Category | Note |
 | :--- | :--- | :--- | :--- | :--- |
