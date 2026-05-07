@@ -10,7 +10,7 @@ def generate_guide():
     
     # 2. 遍歷資料夾
     for root, dirs, files in os.walk("."):
-        dirs[:] = [d for d in dirs if d not in exclude and d != "Tree" and not d.startswith('.')]
+        dirs[:] = [d for d in dirs if d not in exclude and not d.startswith('.')]
         category = os.path.basename(root)
         
         for file in files:
