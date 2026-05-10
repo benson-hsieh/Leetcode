@@ -97,5 +97,6 @@ class Solution {
         dfs(root.left, depth + 1);
         dfs(root.right, depth + 1);
     }
+}
 ```
    

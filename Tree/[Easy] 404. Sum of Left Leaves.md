@@ -3,7 +3,7 @@
 | **Subcategory** | Traversal |
 | **Title** | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/) |
 | **Date** | 2026-04-01 |
-| **Difficulty** | Medium |
+| **Difficulty** | Easy |
 | **Status** | Accepted |
 
 ---
